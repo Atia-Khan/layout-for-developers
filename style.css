@@ -4,11 +4,16 @@
     margin: 0;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+}
 .MainContainer {
     display: grid;
-    grid-template-rows: 7rem 3rem ;
-   margin: 100px auto;
+    grid-template-rows: 6rem 32rem;
    width: 80%;
+   margin:15px auto;
+   border: 5px solid palevioletred;
   }
 
   nav{
@@ -17,11 +22,13 @@
 
   .Content{
     border: 5px solid red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+    display: grid; 
+    grid-template-columns:12rem 43rem 12rem;
+     /* justify-content: space-around;  */
+    /* align-items: stretch; */
+     
   }
+
   .Left, .Center, .Right{
     font-size:1.5rem;
     font-weight: 550;
@@ -35,5 +42,5 @@
   .Right{
     border: 3px solid yellow;
   }
- 
-  
+  */
+   
