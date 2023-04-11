@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+.MainContainer {
+    display: grid;
+    grid-template-rows: 7rem 3rem ;
+   margin: 100px auto;
+   width: 80%;
+  }
+
+  nav{
+    border: 5px solid black;
+  }
+
+  .Content{
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .Left, .Center, .Right{
+    font-size:1.5rem;
+    font-weight: 550;
+  }
+  .Left{
+    border: 3px solid greenyellow;
+  }
+  .Center{
+    border: 3px solid blue;
+  }
+  .Right{
+    border: 3px solid yellow;
+  }
+ 
+  
