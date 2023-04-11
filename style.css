@@ -10,9 +10,9 @@ body{
 }
 .MainContainer {
     display: grid;
-    grid-template-rows: 6rem 32rem;
-   width: 80%;
-   margin:15px auto;
+    grid-template-rows: 5rem 35rem;
+   /* width: 80%; */
+   /* margin:15px auto; */
    border: 5px solid palevioletred;
   }
 
@@ -23,7 +23,7 @@ body{
   .Content{
     border: 5px solid red;
     display: grid; 
-    grid-template-columns:12rem 43rem 12rem;
+    grid-template-columns:17rem 50rem 17rem;
      /* justify-content: space-around;  */
     /* align-items: stretch; */
      
@@ -35,6 +35,11 @@ body{
   }
   .Left{
     border: 3px solid greenyellow;
+
+  }
+
+  .images{
+    display: flex;
   }
   .Center{
     border: 3px solid blue;
@@ -42,5 +47,22 @@ body{
   .Right{
     border: 3px solid yellow;
   }
-  */
-   
+  
+  h4{
+   /* text-align: center; */
+   margin-top: 1.5rem;
+  }
+
+
+  .Center_images{
+    display: flex;
+  }
+  .Center_images >p{
+   font-size:medium;
+   font-weight: 600;
+  }
+
+  .icon img{
+    width: 100px;
+    height: 100px;
+  }
