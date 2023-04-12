@@ -13,18 +13,19 @@ body{
     grid-template-rows: 5rem 35rem;
    /* width: 80%; */
    /* margin:15px auto; */
-   border: 5px solid palevioletred;
+   /* border: 5px solid palevioletred; */
   }
 
   nav{
-    border: 5px solid black;
+    
     display: flex;
+    background-color: lightgreen;
   }
 
   nav h2{
     margin-top: 1.5rem;
   }
-  nav h3{
+  .right h3{
     margin-top: 48px;
     margin-left: -75px;
 
@@ -37,12 +38,12 @@ body{
     margin-left: 880px;
   }
   .Content{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     display: grid; 
     grid-template-columns:17rem 50rem 17rem;
      /* justify-content: space-around;  */
     /* align-items: stretch; */
-     
+    background-color: lightblue;
   }
 
   .Left, .Center, .Right{
@@ -51,7 +52,7 @@ body{
     padding: 10px;
   }
   .Left{
-    border: 3px solid greenyellow;
+    /* border: 3px solid greenyellow; */
 
   }
 
@@ -60,10 +61,17 @@ body{
     justify-content: space-between;
   }
   .Center{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
   }
   .Right{
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
+  }
+  .righticon{
+    float: right;
+    /* margin-left: 50%; */
+  }
+  .righticon h3{
+    margin-left: 85%;
   }
   
   h5{
@@ -79,7 +87,15 @@ body{
 
   .Center_images{
     display: flex;
-  }
+    background-color: cadetblue;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.Center_images img{
+  border-radius: 10px;
+}
+  
   .Center_images >p{
    font-size:medium;
    font-weight: 600;
@@ -94,7 +110,7 @@ body{
   img{
     border-radius: 15px;
     /* padding-bottom: 15px; */
-    padding: 10px;
+    /* padding: 10px; */
   }
 
 
