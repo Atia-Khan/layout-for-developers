@@ -19,6 +19,15 @@ body{
   nav{
     border: 5px solid black;
   }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 53px;
+    text-rendering: auto;
+  }
+  .Right-icon{
+    margin-left: 1200px;
+  }
 
   .Content{
     border: 5px solid red;
