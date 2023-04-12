@@ -21,6 +21,15 @@ body{
     display: flex;
     background-color: lightgreen;
   }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 53px;
+    text-rendering: auto;
+  }
+  .Right-icon{
+    margin-left: 1200px;
+  }
 
   nav h2{
     margin-top: 1.5rem;
